@@ -1,10 +1,9 @@
 # flutter_basic
 
-Text Widget
-![textwidget](https://user-images.githubusercontent.com/55042970/156184500-236b3025-3a65-4fcd-9d21-bafd9377ec9d.png)
-
-Image Widget
-![imagewidget](https://user-images.githubusercontent.com/55042970/156184786-922d3ec2-3039-4995-8619-8fa1040798e5.png)
+1. Text Widget
+2. ![textwidget](https://user-images.githubusercontent.com/55042970/156184500-236b3025-3a65-4fcd-9d21-bafd9377ec9d.png)
+3. Image Widget
+4. ![imagewidget](https://user-images.githubusercontent.com/55042970/156184786-922d3ec2-3039-4995-8619-8fa1040798e5.png)
 
 Cupertino Widget
 ![cupertinowidget](https://user-images.githubusercontent.com/55042970/156184944-58be6f41-05cc-4cc4-a90d-03d166c591ed.PNG)
