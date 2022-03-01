@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+void main() {
+  runApp(GridViewSample());
+}
+
 class GridViewSample extends StatelessWidget {
   const GridViewSample({Key? key}) : super(key: key);
   @override
@@ -7,7 +11,8 @@ class GridViewSample extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("Contoh GridView Widget"),
+          title:
+              const Text("Contoh GridView Widget (2031710076 - Muslimatul RA)"),
         ),
         body: GridView.count(
           crossAxisCount: 2,

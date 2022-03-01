@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+void main() {
+  runApp(ListViewSample());
+}
+
 class ListViewSample extends StatelessWidget {
   const ListViewSample({Key? key}) : super(key: key);
 
@@ -9,7 +13,8 @@ class ListViewSample extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("Contoh ListView Widget"),
+          title:
+              const Text("Contoh ListView Widget (2031710076 - Muslimatul RA)"),
         ),
         body: ListView(
           children: <Widget>[

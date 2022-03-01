@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+void main() {
+  runApp(StackWidgetSample());
+}
+
 class StackWidgetSample extends StatelessWidget {
   const StackWidgetSample({Key? key}) : super(key: key);
   @override
@@ -8,7 +12,7 @@ class StackWidgetSample extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("Contoh Stack Widget"),
+          title: const Text("Contoh Stack Widget (2031710076 - Muslimatul RA)"),
         ),
         body: Stack(
           children: <Widget>[

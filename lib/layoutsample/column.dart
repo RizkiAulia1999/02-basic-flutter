@@ -1,12 +1,18 @@
 import 'package:flutter/material.dart';
 
+void main() {
+  runApp(ColumnWidgetSample());
+}
+
 class ColumnWidgetSample extends StatelessWidget {
   const ColumnWidgetSample({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: const Text("Contoh Column Widget")),
+        appBar: AppBar(
+            title: const Text(
+                "Contoh Column Widget (2031710076 - Muslimatul RA)")),
         body: Column(
           children: [
             Container(
