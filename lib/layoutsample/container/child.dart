@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+void main() {
+  runApp(ButtonWithContainer());
+}
+
 class ButtonWithContainer extends StatelessWidget {
   const ButtonWithContainer({Key? key}) : super(key: key);
 
@@ -7,7 +11,8 @@ class ButtonWithContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-          appBar: AppBar(title: const Text("Contoh Button")),
+          appBar: AppBar(
+              title: const Text("Contoh Button (2031710076-Muslimatul RA)")),
           // ignore: avoid_unnecessary_containers
           body: Container(
             margin: const EdgeInsets.all(10.0),

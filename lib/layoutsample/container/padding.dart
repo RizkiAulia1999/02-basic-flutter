@@ -1,12 +1,17 @@
 import 'package:flutter/material.dart';
 
+void main() {
+  runApp(ColorContainerSample());
+}
+
 class ColorContainerSample extends StatelessWidget {
   const ColorContainerSample({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-          appBar: AppBar(title: const Text("Contoh Padding")),
+          appBar: AppBar(
+              title: const Text("Contoh Padding (2031710076-Muslimatul RA)")),
           body: Container(
               padding: const EdgeInsets.only(left: 20),
               margin: const EdgeInsets.all(20),
